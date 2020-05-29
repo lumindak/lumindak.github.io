@@ -1,0 +1,159 @@
+/*ul {
+ list-style-type: none;
+ margin: 1px;
+ padding: 1px;
+ overflow: hidden;
+ background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ */
+/*
+li {
+ float: left;
+ border-right: 2px solid white;
+}
+
+
+/* Add a border to all( but not the last) list items */
+li:last-child {
+ border-right: none;
+}
+
+li a {
+ display: block;
+ color: #212529;
+ text-align: left;
+ padding: 15px 17px;
+ text-decoration: none;
+}
+*/
+/* Links will change color when hovered over */
+li a:hover {
+ background-color: #FFFff;
+}
+
+.active {
+    background-color: #FFFFFF;
+}
+
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background:#f8f9fa
+}
+.container1 {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background:#f8f9fa;
+    padding-bottom:0px
+    
+}
+@media (min-width: 576px)
+.container2 {
+    max-width: 540px;
+}
+.container2 {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background:#ffffff
+}
+@media (min-width: 576px)
+.container3 {
+    max-width: 540px;
+}
+.container3 {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background:#f8f9fa;
+    padding-bottom:20px
+    
+}
+
+.container4 {
+    width: 90%;
+    padding-right: 0px;
+    padding-left: 70px;
+    margin-right: 0px;
+    margin-left: 40px;
+    background:#ffffff
+}
+.navbar {
+  padding: 10px;
+  background: #10a9c1;
+  margin-left: 0px;
+  color:#ffffff;
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 3px;
+}
+
+/* Getting rid of the default link styles here */
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 40%;
+    height: auto;
+}
+
+.img-thumbnail1 {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius:0.25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.page_footer{
+    background-color: #adb5bd;
+    color:#fff
+   
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;  
+}
+
+.nav-link1{
+color:#ff0000
+
+}
