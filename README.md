@@ -1,1 +1,0 @@
-# lumindak.github.io

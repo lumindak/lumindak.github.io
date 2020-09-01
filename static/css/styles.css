@@ -98,7 +98,7 @@ li a:hover {
 }
 .navbar {
   padding: 10px;
-  background: #10a9c1;
+  background: #e4dade;
   margin-left: 0px;
   color:#ffffff;
 }
@@ -118,15 +118,29 @@ li a:hover {
 .navbar li a {
   color: #000;
   text-decoration: none;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    font-size: 24px;
+    line-height: 20px;
+}
 
 .img-thumbnail {
     padding: .25rem;
     background-color: #fff;
     border: 1px solid #dee2e6;
     border-radius: .25rem;
-    max-width: 40%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -157,3 +171,13 @@ li a:hover {
 color:#ff0000
 
 }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+    color:white;
+    font-size: 30px;
+
+  }
